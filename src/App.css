@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+  padding: 20px;
+}
+
+.App-header {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #45a049;
+}
+
+.weather-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.weather-card h2 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.date {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.temperature {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+.description {
+  font-size: 20px;
+  color: #666;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.weather-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.detail-item {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+.detail-item .label {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 5px 0;
+}
+
+.detail-item .value {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.error {
+  color: #ff4444;
+  background-color: rgba(255, 68, 68, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+} 
