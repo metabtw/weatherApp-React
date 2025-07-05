@@ -1,4 +1,4 @@
-# weatherApp-React
+# 🌤️ weatherApp-React
 
 <p align="center">
   <a href="https://github.com/metabtw/weatherApp-React/stargazers">
@@ -7,87 +7,85 @@
   <a href="https://github.com/metabtw/weatherApp-React/network/members">
     <img src="https://img.shields.io/github/forks/metabtw/weatherApp-React?style=for-the-badge" alt="GitHub Forks"/>
   </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 18"/>
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  </a>
+  <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 18"/>
+  <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
 </p>
 
-# Hava Durumu Uygulaması 🌤️
+Modern ve responsive bir hava durumu uygulaması. React ve TypeScript ile geliştirilmiş olup, OpenWeatherMap API'sinden gerçek zamanlı veriler sunar.
 
-Bu proje, React ve TypeScript kullanılarak geliştirilmiş modern bir hava durumu uygulamasıdır. OpenWeatherMap API'sini kullanarak gerçek zamanlı hava durumu verilerini gösterir.
+---
 
-## Özellikler ✨
+## ✨ Özellikler
 
 - 🔍 Şehir bazlı hava durumu arama
-- 🌡️ Anlık sıcaklık bilgisi
-- 🌤️ Hava durumu açıklaması ve ikonu
-- 💨 Rüzgar hızı
+- 🌡️ Anlık sıcaklık ve hissedilen sıcaklık
+- 🌤️ Hava durumu açıklaması ve ikon
 - 💧 Nem oranı
-- 🌡️ Hissedilen sıcaklık
-- 📊 Minimum ve maksimum sıcaklık değerleri
-- 🌍 Ülke kodu gösterimi
-- 📅 Tarih ve saat bilgisi
-- 📱 Responsive tasarım
+- 💨 Rüzgar hızı
+- 📊 Minimum & maksimum sıcaklık
+- 🌍 Ülke kodu
+- 📅 Anlık tarih ve saat
+- 📱 Tüm cihazlara uyumlu responsive tasarım
 
-## Teknolojiler 🛠️
+---
+
+## 🛠️ Kullanılan Teknolojiler
 
 <p align="left">
-  <a href="https://reactjs.org/" target="_blank">
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  </a>
-  <a href="https://www.typescriptlang.org/" target="_blank">
-    <img src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  </a>
-  <a href="https://axios-http.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios"/>
-  </a>
-  <a href="https://openweathermap.org/" target="_blank">
-    <img src="https://img.shields.io/badge/OpenWeatherMap-4AB050?style=for-the-badge&logo=openweathermap&logoColor=white" alt="OpenWeatherMap"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-    <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  </a>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios"/>
+  <img src="https://img.shields.io/badge/OpenWeatherMap-FF8C00?style=for-the-badge&logo=OpenWeatherMap&logoColor=white" alt="OpenWeatherMap"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
 </p>
 
-## Kurulum 🚀
+---
 
-1.  Projeyi klonlayın:
-    ```bash
-    git clone [https://github.com/metabtw/weatherApp-React.git](https://github.com/metabtw/weatherApp-React.git)
-    ```
-2.  Proje dizinine gidin:
-    ```bash
-    cd weatherApp-React
-    ```
-3.  Bağımlılıkları yükleyin:
-    ```bash
-    npm install
-    ```
-4.  Uygulamayı başlatın:
-    ```bash
-    npm start
-    ```
+## 🚀 Kurulum
 
-Uygulama `http://localhost:3000` adresinde çalışmaya başlayacaktır.
+```bash
+# 1. Projeyi klonlayın
+git clone https://github.com/metabtw/weatherApp-React.git
 
-## Kullanım 📝
+# 2. Proje klasörüne gidin
+cd weatherApp-React
 
-1.  Arama kutusuna bir şehir adı girin (örn: "Istanbul", "Ankara", "London")
-2.  "Ara" butonuna tıklayın
-3.  Hava durumu bilgileri ekranda görüntülenecektir
+# 3. Bağımlılıkları yükleyin
+npm install
 
-## API Anahtarı 🔑
+# 4. Uygulamayı başlatın
+npm start
+```
 
-Bu proje OpenWeatherMap API'sini kullanmaktadır. API anahtarı projede tanımlanmıştır, ancak kendi API anahtarınızı kullanmak isterseniz:
+> Uygulama `http://localhost:3000` adresinde çalışacaktır.
 
-1.  [OpenWeatherMap](https://openweathermap.org/api)'e kaydolun
-2.  Ücretsiz API anahtarı alın
-3.  `src/components/SearchBar.tsx` dosyasındaki `API_KEY` değişkenini kendi API anahtarınızla değiştirin
+---
 
-## İletişim 📧
+## 📝 Kullanım
 
-Sorularınız veya önerileriniz için:
-- E-posta: tahtalime@gmail.com
+1. Arama kutusuna şehir adını girin (örn: `Istanbul`, `Ankara`, `London`)
+2. "Ara" butonuna tıklayın
+3. Hava durumu bilgileri görüntülenecektir
+
+---
+
+## 🔑 API Anahtarı
+
+Proje OpenWeatherMap API'sini kullanmaktadır. API anahtarı projeye gömülüdür, ancak kendi anahtarınızı tanımlamak için:
+
+1. [OpenWeatherMap](https://openweathermap.org/api) sitesine kaydolun
+2. Ücretsiz API anahtarı edinin
+3. `src/components/SearchBar.tsx` dosyasında `API_KEY` sabitini kendi anahtarınızla değiştirin
+
+---
+
+## 📧 İletişim
+
+Geliştirici: **Muhammed Emin Tahtalı**
+
+- 📬 E-posta: [tahtalime@gmail.com](mailto:tahtalime@gmail.com)
+- 📂 GitHub: [github.com/metabtw](https://github.com/metabtw)
+
+---
+
+> ⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!
